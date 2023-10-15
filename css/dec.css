@@ -1,10 +1,15 @@
 #topic{
     background-color: black;
     background-size: cover;
-    text-decoration-color: azure;
+    height: 100vh;
+}
+
+.word{
     text-align: left;
+    text-decoration-color: aliceblue;
 }
 #scroll1{
     background-size: cover;
     height: 100vh;
+    width: 100vw;
 }
