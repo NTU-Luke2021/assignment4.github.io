@@ -2,7 +2,12 @@
     background-size: cover;
     height: 100vh;
 }
-
+#topic{
+    background-color: black;
+    background-size: cover;
+    text-decoration-color: azure;
+    text-align: left;
+}
 #scroll1{
     background-size: cover;
     height: 100vh;
