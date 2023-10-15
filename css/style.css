@@ -6,11 +6,15 @@
 }
 #theme{
     text-align: left;
-    text-decoration-color: aliceblue;
+    text-decoration-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #themep{
     text-align: left;
-    text-decoration-color: aliceblue;
+    text-decoration-color:white;
+}
+#flag{
+    background-image: ;
 }
 #blank{
     background-color: black;
