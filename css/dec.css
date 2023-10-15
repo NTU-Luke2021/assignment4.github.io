@@ -3,8 +3,11 @@
     background-size: cover;
     height: 100vh;
 }
-
-.word{
+#theme{
+    text-align: left;
+    text-decoration-color: aliceblue;
+}
+#themep{
     text-align: left;
     text-decoration-color: aliceblue;
 }
