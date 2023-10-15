@@ -13,18 +13,8 @@
     text-align: left;
     text-decoration-color:white;
 }
-#flag{
-    background-image: "https://github.com/NTU-Luke2021/assignment4.github.io/blob/main/img/israel-palestine.jpg?raw=true";
-    background-position: center;
-    background-repeat: no-repeat;
-}
 #blank{
     background-color: black;
     background-repeat: no-repeat;
     height: 100vh;
-}
-#scroll1{
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
 }
