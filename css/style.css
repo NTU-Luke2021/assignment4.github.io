@@ -1,6 +1,7 @@
 #topic{
     background-color: black;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 #theme{
@@ -10,6 +11,11 @@
 #themep{
     text-align: left;
     text-decoration-color: aliceblue;
+}
+#blank{
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 #scroll1{
     background-size: cover;
