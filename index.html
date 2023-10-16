@@ -16,7 +16,6 @@
         font-family: Arial, Helvetica, sans-serif;
         font-style: oblique;
         font-weight: bold;
-        margin-top: 10%;
     }
     #themep{
         color: azure;
@@ -30,17 +29,32 @@
         background-color: rgb(21, 12, 12);
     }
     #casualty{
+        background-image: url();
+    }
+    #casualtyp{
         height: 100vh;
         color: azure;
         font-size: medium;
         background-color: rgb(21, 12, 12);
+    }
+    #theme2{
+        color: azure;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        font-weight: bold;
+    }
+    #list{
+        color: azure;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        font-weight: bold;
     }
 
 
 </style>
 <body>
     <div id = "topic">
-        <h2 id = "theme" class = "col-12 float-left" style="font-family: Arial, Helvetica, sans-serif; text-decoration: solid;text-decoration-color: azure;"><br>以巴衝突再起</h2>
+        <h2 id = "theme" class = "col-12 float-left"><br>以巴衝突再起</h2>
         <p id = "themep" class = "col-5 float-left">
             <br>2023年10月7日，巴勒斯坦武裝組織哈馬斯由加薩走廊發動代號「阿克薩洪水」的軍事行動，發射逾5,000枚火箭彈
             襲擊以色列並派員進入其南部領土。並俘虜了多名以色列國防軍將領，以色列國防軍隨後向對方空襲予以還擊，並發出
@@ -72,10 +86,32 @@
     </div>
     <script type="text/javascript" src="https://unpkg.com/@twreporter/scrollable-image@1.3.1/dist/main-1f135a15f5704958e631.bundle.js"></script>
     <div class = "blank"></div>
-    <div id = "casualty" class="col-6">
-        <p>
+    <div style = "height: 200vh;">
+        <div id = "casualty" class = "sticky-top col-6 float-right"></div>
+        <div id = "casualtyp" class="col-6 float-left">
+            <h2 id = theme2>火線交織、人間煉獄</h2>
+            <p>
             真主黨和其他巴勒斯坦派系已與以色列跨境交火。巴勒斯坦武裝分子劫持了約150名人質；而以色列的大規模報復性空襲和砲擊已
             在哈瑪斯控制的加薩地帶造成2200多人死亡。
-        </p>
+            </p>
+             <ul id = "list">
+                <li>美國</li>
+                    <p>美國當局表示，至少29名美國公民遇害、15名公民及1名永久居留者失蹤。另外，據信有為數不明的美國人被綁架。</p>
+                <li>泰國</li>
+                    <p>泰國總理賽塔（Srettha Thavisin）表示有24名泰國人喪生。外交部說，另有16名泰人受傷，以及16人據信被綁架。</p>
+                <li>法國</li>
+                    <p>法國外交部長柯隆納（Catherine Colonna）辦公室今天表示，有17名法國國民死亡、15人失蹤。</p>
+                <li>俄羅斯</li>
+                    <p>俄羅斯駐特拉維夫（Tel Aviv）大使館今天在最新消息中表示，至少有16名俄羅斯人被殺，另有8人失蹤。</p>
+                <li>尼泊爾</li>
+                    <P>尼泊爾駐以色列特拉維夫大使館表示，10名尼泊爾公民在亞魯米集體農場（Kibbutz Alumim）喪生。</P>
+                <li>烏克蘭</li>
+                    <P>烏克蘭外交部12日表示，烏克蘭籍罹難人數已升至7人，另有9人失蹤、9人受傷。</P>
+                <li>英國</li>
+                    <P>英國方面，兩人在家屬確認下已經喪生，此外，以色列駐英大使館11日證實另有兩名英人死亡。</P>
+                <li>中國</li>
+                    <P>中國外交部12日表示，有3名中國公民喪生，2人失蹤。</P>
+             </ul>
+        </div>
     </div>
 </body>
